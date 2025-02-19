@@ -65,10 +65,10 @@ const About = () => {
  
  
             <section className='md:p-8 p-3'>
-                <div className='bg-[#eaf0ff]'>
-                    <div className='md:py-10 py-5 '>
-                        <figure className='sm:pl-80  md:pl-88 lg:pt-10 w-full pl-60 '>
-                            <img src={bulb} className='lg:w-[75px] lg:h-[73.5px] md:w-[50px] md:h-[50px] w-[40px] h-[40px]'></img>
+                <div className='bg-[#eaf0ff] rounded-lg w-[80%] mx-auto'>
+                    <div className='md:py-10 py-5'>
+                        <figure className='flex lg:pt-10 justify-center'>
+                            <img src={bulb} className=''></img>
                         </figure>
                         <p className='text-center font-kanit lg:text-[32px] md:text-3xl text-[#373f41] sm:text-xl md:py-5 mt-3 '>Facts About <span className='font-medium'>Shitlakhet </span></p>
                         <div className='md:px-20  mt-3 px-2'>

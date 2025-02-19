@@ -58,7 +58,7 @@ function Home() {
                         <h2 className="text-center text-semiheading mt-15 font-normal font-kanit text-[#373f41]">Feature regarding purchase of villa & also rent out feature with villacrest</h2>
                     </div>
                     <div className="feature_text mt-10">
-                        <p className="font-navabarLinks text-[20px] text-wrap text-center text-[#737b7d] px-20">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                        <p className="font-navabarLinks text-[20px] text-wrap text-justify text-[#737b7d] px-20">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
                     </div>
                 </article>
                 <div className="feature_image text-center"><img src={featureImg} alt="" className="p-8 inline-block" /></div>
@@ -116,7 +116,7 @@ function Home() {
                 
                 {/* mx-auto my-auto md:h-[80%] h-[60%] */}
             </section>
-            <section className=" bg-white text-center">
+            <section className="mb-16 bg-white text-center">
                 <article className="w-[80%] mx-auto">
                 <h2 className="font-kanit text-[32px] text-[#373f41] py-12">
                     Villa Image Gallery
@@ -132,7 +132,7 @@ function Home() {
                 </article>
             </section>
 
-            <section className="p-8 mt-8">
+            <section className="p-8">
                 <article className="w-[80%]  mx-auto">
                     <div className="feature_heading items-center">
                         <h2 className="text-center text-semiheading font-normal font-kanit text-[#373f41]">Why Choose VillaCrest?</h2>
