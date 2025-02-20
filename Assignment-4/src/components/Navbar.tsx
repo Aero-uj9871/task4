@@ -13,12 +13,12 @@ function Navbar() {
         </button>
       </div>
       <ul className="hidden md:flex text-nowrap justify-around space-x-6 text-md md:{space-x-6 text-3xl} items-center  sm:{w-120 mr-4}">
-        <li><Link to="/" className="text-navTextCol font-navabarLinks hover:text-blue-500">Home</Link></li>
-        <li><Link to="/about" className="text-navTextCol font-navabarLinks hover:text-blue-500">About Us</Link></li>
-        <li><Link to="/villas" className="text-navTextCol font-navabarLinks hover:text-blue-500">Villas</Link></li>
-        <li><Link to="/services" className="text-navTextCol font-navabarLinks hover:text-blue-500">Services</Link></li>
-        <li><Link to="/partners" className="text-navTextCol font-navabarLinks hover:text-blue-500">Partner with us</Link></li>
-        <li><Link to="/contactUs" className="bg-primary font-navabarLinks text-white px-4 py-2 rounded hover:bg-blue-700">Contact</Link></li>
+        <li><Link to="/" className="text-navTextCol font-navabarLinks hover:text-[#5b70a5]">Home</Link></li>
+        <li><Link to="/about" className="text-navTextCol font-navabarLinks hover:text-[#5b70a5]">About Us</Link></li>
+        <li><Link to="/villas" className="text-navTextCol font-navabarLinks hover:text-[#5b70a5]">Villas</Link></li>
+        <li><Link to="/services" className="text-navTextCol font-navabarLinks hover:text-[#5b70a5]">Services</Link></li>
+        <li><Link to="/partners" className="text-navTextCol font-navabarLinks hover:text-[#5b70a5]">Partner with us</Link></li>
+        <li><Link to="/contactUs" className="bg-primary font-navabarLinks text-white px-4 py-2 rounded hover:bg-[#5b70a5]">Contact</Link></li>
       </ul>
     </nav>
   );

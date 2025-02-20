@@ -53,64 +53,67 @@ function Home() {
                 </div>
             </section>
             <section className="sm:p-8 mt-8">
-                <article className="w-[80%]  mx-auto">
+                <article className="w-[70%]  mx-auto">
                     <div className="feature_heading items-center">
                         <h2 className="text-center text-[28px] sm:text-semiheading mt-15 font-normal font-kanit text-[#373f41]">Feature regarding purchase of villa & also rent out feature with villacrest</h2>
                     </div>
-                    <div className="feature_text mt-10">
-                        <p className="font-navabarLinks text-[15px] sm:text-[20px] text-wrap text-justify text-[#737b7d]">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    <div className="lg:px-12 feature_text mt-10">
+                        <p className="font-navabarLinks text-[15px] sm:text-[20px] text-wrap text-center text-[#737b7d]">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
                     </div>
                 </article>
                 <div className="feature_image text-center"><img src={featureImg} alt="" className="p-8 inline-block" /></div>
             </section>
-            <section className="p-8 bg-[#ffffff] flex gap-10 flex-col md:flex-row">
-                <div className="sm:p-12 mx-auto md:w-1/2">
-                    <h2 className="text-center font-kanit sm:text-wrap text-[28px] sm:text-semiheading font-normal text-[#373f41]">On Call Cook</h2>
+            <section className="p-8 bg-[#ffffff] flex gap-10 flex-col lg:flex-row">
+                <div className="sm:p-12 mx-auto md:w-full lg:w-[50%]">
+                    <h2 className="text-center sm:text-left font-kanit sm:text-wrap text-[28px] sm:text-semiheading font-normal text-[#373f41]">On Call Cook</h2>
                     <p className="font-navabarLinks text-[15px] sm:text-[20px] text-wrap text-justify text-[#737b7d] mt-6">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
                 </div>
                 <div className="mx-auto my-auto"><img src={cookImg} className="h-fit" alt="" /></div>
             </section>
-            <section className="p-8 bg-[#ffffff] flex gap-10 flex-col-reverse md:flex-row">
+            <section className="p-8 bg-[#ffffff] flex gap-10 flex-col-reverse lg:flex-row">
                 <div className="mx-auto my-auto"><img src={laundaryImg} className="p-16 h-fit" alt="" /></div>
-                <div className="sm:p-12 mx-auto md:w-1/2">
-                    <h2 className="text-center font-kanit sm:text-wrap text-[28px] sm:text-semiheading font-normal text-[#373f41]">Laundary Services</h2>
+                <div className="sm:p-12 mx-auto md:w-full lg:w-[50%]">
+                    <h2 className="text-center sm:text-left font-kanit sm:text-wrap text-[28px] sm:text-semiheading font-normal text-[#373f41]">Laundary Services</h2>
                     <p className="font-navabarLinks text-wrap text-[15px] sm:text-[20px] text-justify text-[#737b7d] mt-6">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
                 </div>
             </section>
-            <section className="p-8 bg-[#ffffff] flex gap-10 flex-col md:flex-row">
-                <div className="sm:p-16 mx-auto md:w-1/2">
-                    <h2 className="text-center font-kanit sm:text-wrap text-[28px] sm:text-semiheading font-normal text-[#373f41]">Facility Cleaning Services</h2>
+            <section className="p-8 bg-[#ffffff] flex gap-00 flex-col lg:flex-row">
+                <div className="sm:p-12 mx-auto md:w-full lg:w-[50%]">
+                    <h2 className="text-center sm:text-left font-kanit sm:text-wrap text-[28px] sm:text-semiheading font-normal text-[#373f41]">Facility Cleaning Services</h2>
                     <p className="font-navabarLinks text-[15px] sm:text-[20px] text-wrap text-justify text-[#737b7d] mt-6">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
                 </div>
                 <div className="mx-auto my-auto"><img src={cleanerImg} className="h-fit" alt="" /></div>
             </section>
-            <section className="text-center p-8 bg-[#ffffff] flex flex-col-reverse md:flex-row">
-                <div className="mx-auto my-auto"><img src={repairImg} className="p-16 h-fit" alt="" /></div>
-                <div className="sm:p-12 mx-auto md:w-1/2">
-                    <h2 className="font-kanit text-wrap text-[28px] sm:text-semiheading font-normal text-[#373f41]">Maintenance & Repairs</h2>
+            <section className="text-center sm:text-left p-8 bg-[#ffffff] flex flex-col-reverse lg:flex-row">
+                <div className="w-[90%] lg:w-[50%] mx-auto my-auto"><img src={repairImg} className="p-16 h-fit" alt="" /></div>
+                <div className="sm:p-12 mx-auto md:w-full lg:mx-0 lg:w-[50%]">
+                    <h2 className="font-kanit text-wrap text-[28px] sm:text-semiheading font-normal text-[#373f41]  md:pr-8">Maintenance & Repairs</h2>
                     <p className="font-navabarLinks text-wrap text-[15px] sm:text-[20px] text-justify text-[#737b7d] mt-6">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
                 </div>
             </section>
+            {/*title section */}
             <section className="">
-                <article className="flex flex-col md:flex-row w-[80%] gap-20 mt-12 mb-12 mx-auto" >
-                <div className=" lg:{h-[70%] mx-0 px-10}  md:w-1/2">
-                    <h2 className="text-center font-kanit sm:text-wrap text-[28px] sm:text-semiheading font-normal text-[#373f41]">Title for the key features of the villa goes here</h2>
-                    <p className="font-navabarLinks text-[15px] sm:text-[20px] text-wrap  text-justify text-[#737b7d] mt-6">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                    <div className="ul-lists flex flex-row gap-10">
-                        <ul className="mt-8 pl-4 list-disc text-wrap">
+                <article className="flex  mx-auto flex-col md:w-[90%] lg:flex-row w-[80%] mt-12 mb-12 sm:gap-15" >
+                <div className="md:w-[70%] md:px-15 lg:h-[70%] sm:p-10 w-full px-0 md:mx-auto">
+                    <h2 className="font-kanit sm:text-wrap text-[28px] sm:text-semiheading font-normal text-[#373f41]">Title for the key features of the villa goes here</h2>
+                    <p className="font-navabarLinks text-[15px] sm:text-[20px]  text-[#737b7d] mt-6">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    <div className="md:w-full py-10 mx-auto flex flex-row gap-10 md:justify-between md:gap-5 lg:justify-between ul-lists   md:flex items-center">
+                        <ul className="w-1/2  mt-8 p-0 sm:p-4 list-disc text-wrap md:text-nowrap">
                             <li className="text-[#3c64b1]"><span className="font-manrope text-[#000000] font-semibold">Tailored services</span></li>
                             <li className="text-[#3c64b1] mt-2"><span className="font-manrope text-[#000000] font-semibold">Effortless arrials</span></li>
                             <li className="text-[#3c64b1] mt-2"><span className="font-manrope text-[#000000] font-semibold">Inspections and vetting</span></li>
                         </ul>
-                        <ul className="mt-8 pl-4 list-disc text-wrap">
+                        <ul className="w-1/2 mt-8 p-0 sm:p-4 md:p-4 list-disc text-wrap md:text-nowrap md:self-end">
                             <li className="text-[#3c64b1]"> <span className="font-manrope text-[#000000] font-semibold">Expertly designed</span></li>
                             <li className="text-[#3c64b1] mt-2"><span className="font-manrope text-[#000000] font-semibold">Luxury amenities</span></li>
                             <li className="text-[#3c64b1] mt-2"><span className="font-manrope text-[#000000] font-semibold">Custom Itenaries</span></li>
                         </ul>
                     </div>
-                    <button className="mt-4 bg-[#6d87cb] text-[#ffffff] p-2">View Details</button>
+                    <div className="pb-4 flex w-full justify-start">
+                    <button className="sm:mt-4 bg-[#6d87cb] text-[#ffffff] p-2">View Details</button>
+                    </div>
                 </div>
-                <div className=" my-auto mx-auto md:mx-0"><img src={section5Img} className="" alt="" /></div>
+                <div className="flex justify-center lg:pr-16 mx-auto md:mx-0"><img src={section5Img} className="h-auto object-cover" alt="" /></div>
                 </article>
                 
                 
@@ -121,7 +124,7 @@ function Home() {
                 <h2 className="font-kanit text-[28px] sm:text-[32px] text-[#373f41] py-12">
                     Villa Image Gallery
                 </h2>
-                <div className="grid mb-10 grid-cols-1 sm:grid-cols-2 gap-10 md:grid-cols-3 md:gap-25 sm:space-y-4 mx-auto">
+                <div className="grid mb-10 grid-cols-1 sm:grid-cols-2 gap-10 lg:grid-cols-3 lg:gap-15 mx-auto sm:h-fit">
                     <img src={gallery1} alt="Villa 1" className="w-full object-cover shadow-lg" />
                     <img src={gallery2} alt="Villa 2" className="w-full object-cover shadow-lg" />
                     <img src={gallery3} alt="Villa 3" className="w-full object-cover shadow-lg" />

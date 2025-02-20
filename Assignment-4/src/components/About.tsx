@@ -5,19 +5,19 @@ import bulb from '../assets/bulb.png'
  
 const About = () => {
     return (
-        <div className='w-[80%] mt-10 mx-auto'>
+        <div className='w-[90%] mt-10 mx-auto'>
             <section className='overflow-x-hidden' id="about">
                 <div className=''>
-                    <div className='items-center'>
+                    <div className='items-center w-full  mx-auto sm:w-[90%] md:w-[80%] lg:w-[60%]'>
                         <p className='font-kanit text-center text-[#373f41] text-xl sm:text-[18px] md:text-[24px] lg:text-[32px]'>Welcome To VillaCrest</p>
                         <div className='lg:mt-[22px] md:mt-4 mt-2'>
                             <p className='font-mulish text-[#737b7d] md:text-[18px] text-wrap text-center'>Vacations are crucial for the souls and when that experience doesn’t go as planned, you can’t get that time back.</p>
                         </div>
-                        <div className=' md:mt-5 mt-2 '>
+                        <div className=' md:mt-5 mt-2 w-[80%] md:w-[90%] lg:w-[95%] mx-auto'>
                             <p className='font-mulish text-[#737b7d] md:text-[18px] text-wrap text-base text-center'>One of the most significant parts of buying a vacation home is its upkeep and maintenance in the absence of homeowners. Getting a home is an emotional decision but the reality of homeownership is riddled with friction.</p>
                         </div>
                     </div>
-                    <figure className='lg:px-30 px-3 md:mx-auto mt-10'>
+                    <figure className='mt-10 w-[80%] mx-auto'>
                         <img src={aboutimg}></img>
                     </figure>
  
@@ -25,42 +25,38 @@ const About = () => {
             </section>
  
  
-            <section className='mt-16'>
-                <div className='sm:flex-row flex flex-col '>
-                    <div className='sm:w-1/2 lg:mt-10 text-wrap md:mt-7'>
-                        <p className='font-kanit md:text-2xl lg:text-[32px] text-[#373f41] text-center text-xl'>Our Mission</p>
-                        <p className=' font-mulish lg:text-[18px] text-justify  sm::text-[16px] sm:mt-3 mt-2 text-[#737b7d] lg:mt-5'>Vacations are crucial for the souls and when that experience doesn’t go as planned, you can’t get that time back.</p>
-                        <p className=' font-mulish lg:text-[18px] text-justify sm::text-[16px] text-[#5f7980] lg:mt-10 sm:mt-4'>   One of the most significant parts of buying a vacation home is its upkeep and maintenance in the absence of homeowners. Getting a home is an emotional decision but the reality of homeownership is riddled with friction.</p>
- 
+            <section className='mt-4 sm:mt-20 p-4 sm:p-8'>
+                <div className='flex lg:flex-row lg:w-[80%] md:w-[90%] w-[96%] mx-auto flex-col-reverse gap-12'>
+                    <div className='lg:w-[50%] w-[90%] mx-auto my-auto'>
+                        <img src={misiion} className='  xl:w-[80%] w-fit mx-auto  '></img>
                     </div>
-                    <div className=' mt-8'>
-                        <img src={misiion} className='  lg:w-[473px] lg:h-[298px] md:w-[400px] md:h-[250px] w-full'></img>
  
+                    <div className='lg:w-[50%] w-[98%] mx-auto  '>
+                        <p className='font-kanit text-[32px] text-[#373f41]  lg:text-left text-center py-6 pb-10 '>Our Mission</p>
+                        <p className=' font-mulish text-[18px]   text-[#737b7d] '>Homeowners spend a huge amount of time dealing with the hassles of general property management - fragmented suppliers and vendors, lack of planning and tracking, lack of time to negotiate and monitor capital projects, and having to jump-start their property each time they want to visit. All this costs money and energy and often leads to a disconnect between the experience a homeowner wants from their home and what their experience actually is.</p>
                     </div>
  
                 </div>
+ 
             </section>
  
  
-            <section className=''>
-                <div className='sm:flex sm:flex-row flex flex-col-reverse'>
-                    <div className='mt-20'>
-                        <img src={vision} className='lg:w-[415px] lg:h-[415px]  w-full '></img>
- 
+            <section className='sm:mt-20 p-4 sm:p-8'>
+                <div className='flex lg:flex-row lg:w-[80%] md:w-[90%] w-[96%] mx-auto flex-col-reverse gap-12 '>
+                    <div className='lg:w-[50%] w-[90%] mx-auto my-auto'>
+                        <img src={vision} className='  xl:w-[80%] w-fit mx-auto my-auto'></img>
                     </div>
  
-                    <div className='sm:w-1/2 lg:pl-30 text-left mt-20 md:px-4'>
-                        <p className='font-kanit md:text-2xl lg:text-[32px] text-[#373f41] text-center text-xl'>Our Vission</p>
-                        <p className=' font-mulish lg:text-[18px] sm:text-[16px] text-justify text-[#737b7d] lg:mt-5  mt-3'>Homeowners spend a huge amount of time dealing with the hassles of general property management - fragmented suppliers and vendors, lack of planning and tracking, lack of time to negotiate and monitor capital projects, and having to jump-start their property each time they want to visit. All this costs money and energy and often leads to a disconnect between the experience a homeowner wants from their home and what their experience actually is.</p>
- 
- 
+                    <div className='  lg:w-[50%] w-[98%] mx-auto  '>
+                        <p className='font-kanit text-[32px] text-[#373f41]  lg:text-left text-center pb-10 '>Our Vission</p>
+                        <p className=' font-mulish text-[18px]   text-[#737b7d] '>Homeowners spend a huge amount of time dealing with the hassles of general property management - fragmented suppliers and vendors, lack of planning and tracking, lack of time to negotiate and monitor capital projects, and having to jump-start their property each time they want to visit. All this costs money and energy and often leads to a disconnect between the experience a homeowner wants from their home and what their experience actually is.</p>
                     </div>
  
                 </div>
  
             </section>
 
-            <section className='pt-8 pb-8 md:p-8'>
+            <section className='mt-20 pb-8 md:p-8'>
                 <div className='bg-[#eaf0ff] rounded-lg w-full sm:w-[80%] mx-auto'>
                     <div className='md:py-10 py-5'>
                         <figure className='flex lg:pt-10 justify-center'>

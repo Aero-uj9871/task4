@@ -1,22 +1,26 @@
-import item1 from '../assets/Group_3204.png'
-import item2 from '../assets/Group_3205.png'
-import item3 from '../assets/Group_3206.png'
-import item4 from '../assets/Group_3207.png'
-import item5 from '../assets/Group_3206.png'
-import item6 from '../assets/Group_3209.png'
-import item7 from '../assets/Group_3210.png'
-const Amenities = () => {
-  return (
-    <section className='w-full grid grid-cols-3 gap-10 mt-8'>
-        <figure className=''><img src={item1} alt="" className='object-contain w-full'/></figure>
-        <figure><img src={item2} alt="" className='object-contain w-full'/></figure>
-        <figure><img src={item3} alt="" className='object-contain w-full'/></figure>
-        <figure><img src={item4} alt="" className='object-contain w-full'/></figure>
-        <figure><img src={item5} alt="" className='object-contain w-full'/></figure>
-        <figure><img src={item6} alt="" className='object-contain w-full'/></figure>
-        <figure><img src={item7} alt="" className='object-contain w-full'/></figure>
-    </section>
-  )
+import React from 'react';
+import { Amenity } from '../Types/Villatype';
+// import logo from '../assets/Group (1).svg';
+interface AmenityProps {
+  amenities: Amenity[];
 }
- 
-export default Amenities
+
+const Amenities: React.FC<AmenityProps> = ({ amenities }) => {
+  return (
+    <>
+<section className='w-full grid grid-cols-3 gap-10 mt-4 mt-[60px]'>
+  {
+    amenities.map((item,index)=>(
+      <div key={index} className='h-[12.5rem] w-[12.5rem] bg-[#6d87cb] flex flex-col justify-center items-center rounded-sm gap-4'>
+      <img src={item.logo} alt="" />
+      <p className='text-[#ffffff] font-mulish text-[14px] font-extrabold'>{item.title}</p>
+    </div>
+    ))
+  }
+    </section>
+    </>
+  );
+};
+
+export default Amenities;
+
