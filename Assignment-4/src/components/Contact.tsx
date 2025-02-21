@@ -14,7 +14,7 @@ function Contact() {
 
                     <div className="contact-details lg:absolute bg-white shadow-xl lg:w-[45%] lg:h-[65%]
                           left-[-7%] lg:transform-translate-y-1/2
-                           border border-gray-200 sm:w-[75%] w-[85%] mx-auto" >
+                           border border-gray-200 sm:w-[75%] w-[95%] mx-auto" >
                         <div className="p-6 md:p-10 lg:p-6">
                             <h3 className="font-kanit sm:text-[32px] text-[28px] text-[#002856] font-medium mb-4 text-left">Contact Details</h3>
                             <div className="space-y-5 md:py-4">
