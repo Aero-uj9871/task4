@@ -17,7 +17,7 @@ import gallery6 from '../assets/gallery-6.png';
 // bg-opacity-[6%]
 function Home() {
     return (
-        <section className="home bg-[#3c64b1]/6 overflow-hidden" id="home">
+        <section className="home bg-[#3c64b1]/6 overflow-x-hidden" id="home">
             <div className="home_heading flex  mt-[3.75rem] justify-center w-[90%] sm:w-[640px] md:w-[760px] lg:w-[830px] mx-auto">
                 <h2 className="w-full heading font-kanit text-[#373f41] text-wrap text-[28px] sm:text-[38px] md:text-[42px] lg:[44px] text-center">
                     Take your <span className="font-medium">real estate</span> experience to new heights in the{" "}

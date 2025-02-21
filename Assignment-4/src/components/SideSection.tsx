@@ -11,7 +11,7 @@ const SideSection: React.FC<SideImagesProps> = ({ images }) => {
         <img
           key={index}
           src={image}
-          className="rounded-lg h-[110px] w-[155px] object-contain"
+          className="rounded-lg w-[155px] object-contain"
           alt=""
         /> 
       ))}

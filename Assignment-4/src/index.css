@@ -11,6 +11,9 @@
   --color-navTextCol: #373f41;
   --text-semiheading: 32px;
 }
+html,body{
+  /* overflow-y: scroll; */
+}
 /* .montserrat-logo_text {
   font-family: "Montserrat", serif;
  

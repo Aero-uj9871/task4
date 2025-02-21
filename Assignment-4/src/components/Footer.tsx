@@ -2,8 +2,8 @@ function Footer() {
     return (
         <>
             <footer className="bg-[#373f41]">
-                <div className="text-white w-1/2 mx-auto p-6">
-                    <p className="text-center">© VillaCrest. All rights reserved.</p>
+                <div className="text-white sm:w-1/2 w-full mx-auto p-4">
+                    <p className="text-center text-nowrap">© VillaCrest. All rights reserved.</p>
                 </div>
             </footer>
         </>

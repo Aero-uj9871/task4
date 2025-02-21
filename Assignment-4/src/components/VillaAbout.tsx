@@ -10,10 +10,10 @@ const AboutSection: React.FC<AboutSectionProps> = ({ layout }) => {
     <section className="w-full mt-[60px]">
       {layout.map((item, index) => (
         <div key={index}>
-          <h1 className="font-mulish font-bold text-left text-[20px] text-[#373f41] mb-[25px]">
+          <h1 className="font-navabarLinks font-bold text-left md:text-[20px] text-[#373f41] mb-[25px]">
             {item.title}
           </h1>
-          <p className="font-mulish text-left text-[#737b7d] text-[18px] mb-[50px]">
+          <p className="font-navabarLinks text-left text-[#737b7d] md:text-[18px] mb-[50px]">
             {item.data}
           </p>
         </div>

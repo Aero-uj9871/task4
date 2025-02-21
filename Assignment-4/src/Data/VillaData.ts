@@ -1,22 +1,35 @@
-import image1 from '../assets/gallery-1.png'
-import image2 from '../assets/gallery-1.png'
+import image1 from '../assets/gallery-3.png'
+import image2 from '../assets/gallery-2.png'
 import image3 from '../assets/gallery-1.png'
-import image4 from '../assets/gallery-1.png'
-import image5 from '../assets/gallery-1.png'
-import image6 from '../assets/gallery-1.png'
+import image4 from '../assets/4.png'
+import image5 from '../assets/gallery-4.png'
+import image6 from '../assets/6.png'
+import image7 from '../assets/8.png'
+import image8 from '../assets/gallery-5.png'
+import image9 from '../assets/gallery-6.png'
+
+import sideImg1 from '../assets/sideImg1.png'
+import sideImg2 from '../assets/sideImg2.png'
+import sideImg3 from '../assets/sideImg3.png'
+import sideImg4 from '../assets/sideImg4.png'
+import sideImg5 from '../assets/sideImg5.png'
+import sideImg6 from '../assets/sideImg6.png'
+import sideImg7 from '../assets/sideImg7.png'
+import sideImg8 from '../assets/sideImg8.png'
 
 
-import logo1 from '../assets/dining.svg'
+
+import logo1 from '../assets/wifi.svg'
 import logo2 from '../assets/dining.svg'
-import logo3 from '../assets/dining.svg'
-import logo4 from '../assets/dining.svg'
-import logo5 from '../assets/dining.svg'
-import logo7 from '../assets/dining.svg'
-import logo6 from '../assets/dining.svg'
+import logo3 from '../assets/umbrella.svg'
+import logo4 from '../assets/kitchen.svg'
+import logo5 from '../assets/smoking.svg'
+import logo7 from '../assets/music.svg'
+import logo6 from '../assets/careTaker.svg'
 
 
 
-const imageArr=[image1,image2,image3,image4,image5,image6,image3,image5];
+const imageArr=[sideImg1,sideImg2,sideImg3,sideImg4,sideImg5,sideImg6,sideImg7,sideImg8];
 const descData={
     description:[
         "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
@@ -162,7 +175,7 @@ const villas = [
     },
     { 
       id: 7, 
-      image: image1, 
+      image: image7, 
       title: "Hilltop Haven", 
       price: "₹400,000", 
       address: "23 Summit Heights, Shimla", 
@@ -174,7 +187,7 @@ const villas = [
     },
     { 
       id: 8, 
-      image: image2, 
+      image: image8, 
       title: "Riverside Retreat", 
       price: "₹480,000", 
       address: "56 Riverbank Street, Rishikesh", 
@@ -186,7 +199,7 @@ const villas = [
     },
     { 
       id: 9, 
-      image: image3, 
+      image: image9, 
       title: "Countryside Mansion", 
       price: "₹650,000", 
       address: "89 Green Fields, Punjab", 

@@ -20,17 +20,17 @@ function Contact() {
                             <div className="space-y-5 md:py-4">
                                 <div className="flex flex-row justify-baseline space-x-3 items-start">
                                     <img src={locationPin} className="mt-2 w-[22.5px] h-[32px]"></img>
-                                    <p className=" text-[#4b4b6d] text-left  font-mulish sm:text-[24px] text-[20px]  ">1187 Lake Forest City,<br /> Uttarakhand, 110006, India</p>
+                                    <p className=" text-[#4b4b6d] text-left  font-navabarLinks sm:text-[24px] text-[20px]  ">1187 Lake Forest City,<br /> Uttarakhand, 110006, India</p>
                                 </div>
 
                                 <div className="flex flex-row space-x-3">
                                     <img src={mail} className='mt-2 w-[32px] h-[24px]'></img>
-                                    <p className="text-[#4b4b6d] text-left font-mulish sm:text-[24px] text-[20px]"> support@villacrest.in</p>
+                                    <p className="text-[#4b4b6d] text-left font-navabarLinks sm:text-[24px] text-[20px]"> support@villacrest.in</p>
                                 </div>
 
                                 <div className="flex flex-row space-x-3">
                                     <img src={mobile} className='w-[24.3px] h-[37.7px]'></img>
-                                    <p className="text-[#4b4b6d] text-left font-mulish sm:text-nowrap sm:text-[24px] text-[20px]"> +91-9910014421, 9891149697</p>
+                                    <p className="text-[#4b4b6d] text-left font-navabarLinks sm:text-nowrap sm:text-[24px] text-[20px]"> +91-9910014421, 9891149697</p>
                                 </div>
 
                             </div>
@@ -48,10 +48,10 @@ function Contact() {
                         <h2 className=" font-kanit text-[#002856] text-[30px] sm:text-[42px] md:text-left text-center font-medium">Get in Touch</h2>
                         <p className="mb-6 text-[18px] sm:text-[24px] font-kanit text-[#002856] md:text-left text-center  ">Feel free to drop your message below!</p>
                         <form className="space-y-4 md:px-0 px-4">
-                            <input type="text" placeholder="Your Name" className="md:w-[105%] text-[#c2c2c2] font-mulish md:p-4 p-3 text-[18px] w-full  bg-[#ffffff] rounded" />
-                            <input type="text" placeholder="Your Mobile Number" className="md:w-[105%] w-full text-[#c2c2c2] font-mulish md:p-4 p-3 bg-[#ffffff] text-[18px]  rounded" />
-                            <input type="email" placeholder="Your Email Address" className="md:w-[105%] w-full  text-[#c2c2c2] font-mulish md:p-4 p-3 bg-[#ffffff] text-[18px]  rounded" />
-                            <textarea placeholder="Enter your message here.." className="md:w-[105%] w-full h-[10.5rem] text-[rgb(194,194,194)] font-mulish md:p-4 p-3 text-[18px]  bg-[#ffffff]  rounded"></textarea>
+                            <input type="text" placeholder="Your Name" className="md:w-[105%] text-[#c2c2c2] font-navabarLinks md:p-4 p-3 text-[18px] w-full  bg-[#ffffff] rounded" />
+                            <input type="text" placeholder="Your Mobile Number" className="md:w-[105%] w-full text-[#c2c2c2] font-navabarLinks md:p-4 p-3 bg-[#ffffff] text-[18px]  rounded" />
+                            <input type="email" placeholder="Your Email Address" className="md:w-[105%] w-full  text-[#c2c2c2] font-navabarLinks md:p-4 p-3 bg-[#ffffff] text-[18px]  rounded" />
+                            <textarea placeholder="Enter your message here.." className="md:w-[105%] w-full h-[10.5rem] text-[rgb(194,194,194)] font-navabarLinks md:p-4 p-3 text-[18px]  bg-[#ffffff]  rounded"></textarea>
                             <button type="submit" className="bg-[#6d87cb] md:items-start items-center mb-7  text-white md:px-16 md:py-5  px-12 py-3 font-raleway font-bold text-[22px] mx-auto rounded-4xl hover:bg-[#5b70a5] ">SEND</button>
                         </form>
                     </div>
