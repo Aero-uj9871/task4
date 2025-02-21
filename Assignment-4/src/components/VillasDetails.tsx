@@ -9,8 +9,8 @@ import loc from '../assets/location.svg'
 import bathtub from '../assets/bathtub.svg'
 import room from '../assets/double-bed.svg'
 import house from '../assets/measured.svg'
-import DescriptionSection from '../components/VillaDescription'
-import AboutSection from '../components/VillaAbout'
+import Property from './PropertyLayout'
+import Description from './Description'
 import Amenities from '../components/Amenities'
 import SideImages from '../components/SideSection';
 
@@ -71,8 +71,8 @@ const DetailedVila = () => {
               </h1>
             </section>
             <section className="w-full">
-              {activeSection === "description" && <AboutSection layout={villa.desc.layout} />}
-              {activeSection === "layout" && <DescriptionSection desc={villa.desc.desc} />}
+              {activeSection === "description" && <Description layout={villa.desc.layout} />}
+              {activeSection === "layout" && <Property desc={villa.desc.desc} />}
               {activeSection === "amenities" && <Amenities amenities={villa.desc.aminities} />}
             </section>
 

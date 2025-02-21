@@ -8,7 +8,7 @@ interface DescriptionSectionProps {
 const DescriptionSection: React.FC<DescriptionSectionProps> = ({ desc }) => {
   return (
     <div className="flex flex-col mt-[60px]">
-      <h1 className="font-navabarLinks font-bold text-left text-[24px] my-">
+      <h1 className="font-navabarLinks font-bold text-left text-[24px] text-[#373f41]">
         Description:
       </h1>
 
