@@ -1,4 +1,3 @@
-import React from "react";
 import Carousel from "./Carousel";
 import about_img from '../assets/about.png'
 import featureImg from '../assets/section-3-img.png'
