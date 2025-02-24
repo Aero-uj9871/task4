@@ -32,12 +32,12 @@ const Carousel = () => {
             </div>
  
             {/* Indicator Dots */}
-            <div className="absolute z-30 flex space-x-2 bottom-4 left-1/2 -translate-x-1/2">
+            <div className="absolute p-2 z-30 flex space-x-2 bottom-4 left-1/2 -translate-x-1/2">
                 {images.map((_, index) => (
                     <button
                         key={index}
-                        className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                            index === activeIndex ? 'bg-white w-4 h-4' : 'bg-gray-400'
+                        className={`w-2 h-2 rounded-full transition-all duration-300 ${
+                            index === activeIndex ? 'bg-primary w-2 h-2' : 'bg-white'
                         }`}
                         onClick={() => setActiveIndex(index)}
                         aria-label={`Slide ${index + 1}`}

@@ -9,28 +9,28 @@ import youtube from '../assets/yT.png'
 function Contact() {
     return (
         <div className=":relative items-center py-16 sm:py-20 lg:pl-16" >
-            <div className="contact-container lg:w-[82%] xl:w-[78%] mb-10 mx-auto sm:w-[80%] w-[70%]  bg-[#e2eaff] ">
+            <div className="contact-container lg:w-[82%] xl:w-[78%] mb-10 mx-auto sm:w-[80%] w-[95%]  bg-[#e2eaff] ">
                 <article className="flex flex-col lg:flex-row items-center justify-center md:relative pt-10 md:pt-12">
 
                     <div className="contact-details lg:absolute bg-white shadow-xl lg:w-[45%] lg:h-[65%]
                           left-[-7%] lg:transform-translate-y-1/2
                            border border-gray-200 sm:w-[75%] w-[95%] mx-auto" >
-                        <div className="p-6 md:p-10 lg:p-6">
-                            <h3 className="font-kanit sm:text-[32px] text-[28px] text-[#002856] font-medium mb-4 text-left">Contact Details</h3>
+                        <div className="p-5 sm:p-6 md:p-10 lg:p-6">
+                            <h3 className="font-kanit  sm:text-[32px] text-[28px] text-[#002856] font-medium mb-4 text-left">Contact Details</h3>
                             <div className="space-y-5 md:py-4">
                                 <div className="flex flex-row justify-baseline space-x-3 items-start">
                                     <img src={locationPin} className="mt-2 w-[22.5px] h-[32px]"></img>
-                                    <p className=" text-[#4b4b6d] text-left  font-navabarLinks sm:text-[24px] text-[20px]  ">1187 Lake Forest City,<br /> Uttarakhand, 110006, India</p>
+                                    <p className=" text-[#4b4b6d] text-left text-[20px] font-navabarLinks sm:text-[24px] lg:text-[24px]  ">1187 Lake Forest City,<br /> Uttarakhand, 110006, India</p>
                                 </div>
 
                                 <div className="flex flex-row space-x-3">
                                     <img src={mail} className='mt-2 w-[32px] h-[24px]'></img>
-                                    <p className="text-[#4b4b6d] text-left font-navabarLinks sm:text-[24px] text-[20px]"> support@villacrest.in</p>
+                                    <p className="text-[#4b4b6d] text-left text-[20px] font-navabarLinks sm:text-[24px] lg:text-[24px]"> support@villacrest.in</p>
                                 </div>
 
                                 <div className="flex flex-row space-x-3">
                                     <img src={mobile} className='w-[24.3px] h-[37.7px]'></img>
-                                    <p className="text-[#4b4b6d] text-left font-navabarLinks sm:text-nowrap sm:text-[24px] text-[20px]"> +91-9910014421, 9891149697</p>
+                                    <p className="text-[#4b4b6d] text-left font-navabarLinks  sm:text-[24px] text-[20px]"> +91-9910014421, 9891149697</p>
                                 </div>
 
                             </div>

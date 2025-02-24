@@ -56,7 +56,7 @@ const Navbar = () => {
           {isOpen ? <X size={28} /> : <Menu className="text-[#373f41]" size={28} />}
         </button>
 
-        <div className="hidden lg:flex md:gap-3 lg:gap-10 items-center text-wrap">
+        <div className="hidden lg:flex md:gap-3 lg:gap-5 xl:gap-10 items-center text-wrap">
           {[
             { to: "/", label: "Home" },
             { to: "/about", label: "About Us" },

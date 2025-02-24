@@ -18,7 +18,7 @@ import SideImages from '../components/SideSection';
 const DetailedVila = () => {
   const { id } = useParams();
   const villa = villas.find((v) => v.id === Number(id));
-  const [activeSection, setActiveSection] = useState('description');
+  const [activeSection, setActiveSection] = useState('layout');
 
   if (!villa) {
     return <h1>Villa Not Found</h1>;

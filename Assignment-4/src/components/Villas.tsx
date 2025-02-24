@@ -15,7 +15,7 @@ const Villas = () => {
                     </h1>
                 </article>
 
-                <div className='grid grid-cols-1 gap-3 sm:gap-6 md:gap-3 lg:gap-8  sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-5'>
+                <div className='grid grid-cols-1 gap-3 space-x-2 sm:gap-6 md:gap-3 lg:gap-8  sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-5'>
                     {villas.map((villa) => (
                         <VillaCard key={villa.id} villa={villa} />
                     ))}
